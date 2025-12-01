@@ -13,7 +13,7 @@ public class Main {
             thread_1.start();
             thread_2.start();
         } catch (Exception e) {
-            System.out.println("Main Thread Interrupted");
+            System.err.println("Main Thread Interrupted");
         }
     }
 }
