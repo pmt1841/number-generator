@@ -11,7 +11,7 @@ public class NumberGenerator implements Runnable {
                 Thread.sleep(500);
             }
         } catch (InterruptedException e) {
-            System.out.println(getThreadName() + " Interrupted");
+            System.err.println(getThreadName() + " Interrupted");
         }
 
         System.out.println(getThreadName() + ": Finished");
